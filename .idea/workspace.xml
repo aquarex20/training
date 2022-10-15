@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="nettoyage">
+    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="fix d'une erreur reliée à ')' non considéré">
+      <change afterPath="$PROJECT_DIR$/src/SelectionTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GA0F9CcLS8I6Sh7FF9yW8IZ0iQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665815976259</updated>
-      <workItem from="1665815977790" duration="4605000" />
+      <workItem from="1665815977790" duration="7123000" />
     </task>
     <task id="LOCAL-00001" summary="just testing">
       <created>1665816013516</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665820576011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix d'une erreur reliée à ')' non considéré">
+      <created>1665820808647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665820808647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
     <MESSAGE value="Elaboration de la fct" />
     <MESSAGE value="fixe d'erreur" />
     <MESSAGE value="nettoyage" />
-    <option name="LAST_COMMIT_MESSAGE" value="nettoyage" />
+    <MESSAGE value="fix d'une erreur reliée à ')' non considéré" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix d'une erreur reliée à ')' non considéré" />
   </component>
 </project>

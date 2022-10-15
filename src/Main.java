@@ -17,7 +17,14 @@ public class Main {
         for (int i = 0; i < trie.length ; i++) {
             System.out.println(trie[i]);
         }
+        System.out.println("Séparation");
+        TriEnBulles bul=new TriEnBulles();
+        int[] trie2=bul.trier(new int[]{6,1,2,10,-1,7,3,5});
+        for (int i = 0; i < trie2.length ; i++) {
+            System.out.println(trie2[i]);
         }
+
+    }
 
 
     }

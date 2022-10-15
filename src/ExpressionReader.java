@@ -72,6 +72,9 @@ public class ExpressionReader {
 
 
             }
+            else if (c==')'){
+
+            }
 
             else{
                 pileArtificielle.push(Character.getNumericValue(c));

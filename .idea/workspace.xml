@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="Elaboration de la fct">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpressionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpressionReader.java" afterDir="false" />
+    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="nettoyage">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665815976259</updated>
-      <workItem from="1665815977790" duration="4183000" />
+      <workItem from="1665815977790" duration="4605000" />
     </task>
     <task id="LOCAL-00001" summary="just testing">
       <created>1665816013516</created>
@@ -82,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665819365195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixe d'erreur">
+      <created>1665820514940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665820514940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nettoyage">
+      <created>1665820576011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665820576011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="just testing" />
     <MESSAGE value="Elaboration de la fct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elaboration de la fct" />
+    <MESSAGE value="fixe d'erreur" />
+    <MESSAGE value="nettoyage" />
+    <option name="LAST_COMMIT_MESSAGE" value="nettoyage" />
   </component>
 </project>

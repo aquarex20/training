@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class ExpressionReader {
     char[] expression;
-    Stack<Integer> pile=new Stack<>();
     ExpressionReader(char[] calcul){
         expression= new char[calcul.length] ;
         expression= calcul.clone();
@@ -45,7 +44,7 @@ public class ExpressionReader {
                 pileArtificielle.push(val1 / val2);
             }
             else if(c=='('){
-                ArrayList<Character> newExpression= new ArrayList<Character>();
+                ArrayList<Character> newExpression= new ArrayList<>();
                 int compte =0;
                 int resultat=0;
                 boolean compter=false;

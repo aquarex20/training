@@ -7,7 +7,8 @@ public class ExpressionReader {
     char[] expression;
     Stack<Integer> pile=new Stack<>();
     ExpressionReader(char[] calcul){
-        expression=calcul;
+        expression= new char[calcul.length] ;
+        expression= calcul.clone();
     }
     ExpressionReader(String calcul){
         expression= calcul.toCharArray();
@@ -24,27 +25,26 @@ public class ExpressionReader {
 
                 pileArtificielle.push(val1 * val2);
             }
-            if (c=='-')
+            else if (c=='-')
             {
                 int val1=pileArtificielle.pop();
                 int val2=pileArtificielle.pop();
                 pileArtificielle.push(val1-val2);
             }
-            if (c=='+')
+            else if (c=='+')
             {
                 int val1=pileArtificielle.pop();
                 int val2=pileArtificielle.pop();
-
                 pileArtificielle.push(val1 + val2);
             }
-            if (c=='/')
+            else if (c=='/')
             {
                 int val1=pileArtificielle.pop();
                 int val2=pileArtificielle.pop();
 
                 pileArtificielle.push(val1 / val2);
             }
-            if (c=='('){
+            else if(c=='('){
                 ArrayList<Character> newExpression= new ArrayList<Character>();
                 int compte =0;
                 int resultat=0;
@@ -83,7 +83,15 @@ public class ExpressionReader {
     }
 
     public int calculer(){
-         return calculer(expression);
+        System.out.println("\nExpression recue: ");
+        for (char c: expression
+        ) {
+            System.out.println(c);
+
+        }
+        System.out.println("\nValeur de calcul: "+calculer(expression));
+
+        return calculer(expression);
     }
 
 }

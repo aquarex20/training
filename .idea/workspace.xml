@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="SelectionTri terminé :)">
-      <change afterPath="$PROJECT_DIR$/src/TriEnBulles.java" afterDir="false" />
+    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="Tri en bulles terminé">
+      <change afterPath="$PROJECT_DIR$/src/TriParInsertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665815976259</updated>
-      <workItem from="1665815977790" duration="9146000" />
+      <workItem from="1665815977790" duration="13545000" />
     </task>
     <task id="LOCAL-00001" summary="just testing">
       <created>1665816013516</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665875411437</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tri en bulles terminé">
+      <created>1665877398556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665877398556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="nettoyage" />
     <MESSAGE value="fix d'une erreur reliée à ')' non considéré" />
     <MESSAGE value="SelectionTri terminé :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectionTri terminé :)" />
+    <MESSAGE value="Tri en bulles terminé" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tri en bulles terminé" />
   </component>
 </project>

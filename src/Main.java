@@ -23,6 +23,14 @@ public class Main {
         for (int i = 0; i < trie2.length ; i++) {
             System.out.println(trie2[i]);
         }
+        System.out.println("Séparation");
+        TriParInsertion ins=new TriParInsertion();
+        int[] trie3=ins.trier(new int[]{6,1,2,10,-1,7,3,5});
+        for (int i = 0; i < trie3.length ; i++) {
+            System.out.println(trie3[i]);
+        }
+
+
 
     }
 

@@ -19,11 +19,10 @@ public class QuickSort {
         int idxSmallLeft=left;
         int idxBiggerRight=right-1;
         while(idxSmallLeft<idxBiggerRight) {
-            while (tableau[idxSmallLeft] < pivot && idxSmallLeft < right) {
-                idxSmallLeft++;
+            while (tableau[idxSmallLeft] < pivot && idxSmallLeft++ < right) {
             }
-            while (tableau[idxBiggerRight] > pivot && idxBiggerRight > left) {
-                idxBiggerRight--;
+            while (tableau[idxBiggerRight] > pivot && idxBiggerRight-- > left) {
+
             }
              if (idxSmallLeft<idxBiggerRight) {
                 swap(tableau, idxSmallLeft, idxBiggerRight);

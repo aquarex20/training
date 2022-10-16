@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -33,6 +35,16 @@ public class Main {
         int[] trie4=MergeSort.trier(new int[]{6,1,2,10,-1,7,3,5}, 0, 7);
         for (int i = 0; i < trie4.length ; i++) {
             System.out.println(trie4[i]);
+        }
+        System.out.println("Séparation");
+
+        int[] tableau=new int[] {6,1,2,10,-1,7,3,5};
+        tableau=QuickSort.trier(tableau, 0, tableau.length-1);
+        for (int e:tableau
+             ) {
+            System.out.println(e);
+
+
         }
 
 

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="Tri par insertion terminé">
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment=" cleaning :D">
+      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665815976259</updated>
-      <workItem from="1665815977790" duration="19176000" />
+      <workItem from="1665815977790" duration="22692000" />
     </task>
     <task id="LOCAL-00001" summary="just testing">
       <created>1665816013516</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665883156655</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" cleaning :D">
+      <created>1665889852565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665889852565</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +159,9 @@
     <MESSAGE value="SelectionTri terminé :)" />
     <MESSAGE value="Tri en bulles terminé" />
     <MESSAGE value="Tri par insertion terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tri par insertion terminé" />
+    <MESSAGE value="MergeSort finished :)" />
+    <MESSAGE value=" cleaning :D" />
+    <option name="LAST_COMMIT_MESSAGE" value=" cleaning :D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -162,14 +171,14 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -19,7 +19,7 @@ public class TriEnBulles {
         return tableau;
     }
     */
-    public int[] trier(int[] tableau){
+    public static int[] trier(int[] tableau){
         for (int i = 0; i <tableau.length-1 ; i++) {
             for (int j=0; j<tableau.length-1;j++)
             {

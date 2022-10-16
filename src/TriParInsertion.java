@@ -1,6 +1,6 @@
 public class TriParInsertion
 {
-    public int[] trier(int[] tableau) {
+    public static int[] trier(int[] tableau) {
         int j=0;
 
         for (int i = 1; i <tableau.length ; i++) {

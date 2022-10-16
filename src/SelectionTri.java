@@ -1,5 +1,5 @@
 public class SelectionTri<AnyType> {
-    public int[] trier(int[] tableau){
+    public static int[] trier(int[] tableau){
 
         for (int i = 0; i <tableau.length-1 ; i++) {
             int min=i;

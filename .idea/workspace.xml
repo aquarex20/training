@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="QuickSort let's goooo">
+    <list default="true" id="7274fa85-d506-4bc7-bd93-199e0d65461e" name="Changes" comment="QuickSort - FIX ppur éviter boucle infinie dans while">
+      <change afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665815976259</updated>
-      <workItem from="1665815977790" duration="23490000" />
+      <workItem from="1665815977790" duration="25049000" />
     </task>
     <task id="LOCAL-00001" summary="just testing">
       <created>1665816013516</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665934017880</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="QuickSort - FIX ppur éviter boucle infinie dans while">
+      <created>1665949143450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665949143450</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +176,8 @@
     <MESSAGE value="MergeSort finished :)" />
     <MESSAGE value=" cleaning :D" />
     <MESSAGE value="QuickSort let's goooo" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuickSort let's goooo" />
+    <MESSAGE value="QuickSort - FIX ppur éviter boucle infinie dans while" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuickSort - FIX ppur éviter boucle infinie dans while" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,7 +193,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

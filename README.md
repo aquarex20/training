@@ -1,0 +1,3 @@
+# training
+Contains multiple algorithms to be used to sort. 
+MergeSort, BubbleSort, SelectionSort, InsertionSort, ...
